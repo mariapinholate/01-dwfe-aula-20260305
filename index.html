@@ -1,50 +1,104 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meu Site de Notícias</title>
-    <link rel="stylesheet" href="./assets/css/estilo.css" />
-    <script src="https://kit.fontawesome.com/01aa825c71.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <header>
-      <div class="logo"> M</div>
-      <h1 class="titulo"> meu site de noticias </h1>
-      <div class="menu-hamburguer"> 
-      <i class="fa-solid fa-bars"></i> 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Site de Notícias</title>
+  <link rel="stylesheet" href="./assets/css/estilo.css" />
+  <script src="https://kit.fontawesome.com/01aa825c71.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo"> M</div>
+    <h1 class="titulo"> meu site de noticias </h1>
+    <div class="menu-hamburguer">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+
+  </header>
+  <section>
+    <nav>
+      <ul class="menu-lateral">
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-newspaper"></i>
+              </div>
+              <div class="rotulo"> Noticias</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="rotulo"> Mensagem </div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="rotulo"> Titulo </div>
+              <div class="icone-final"></div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              </div>
+              <div class="rotulo"> Sair</div>
+              <div class="icone-final"></div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+
+      <div class="cartao">
+        <img src="./assets/img/transportepublico.jpg" alt="" class="imagem-do-cartao" />
+        <section class="corpo-do-cartao">
+          <h1 class="titulo-da-noticia">
+            Tranporte Público em Belo Horizonte
+          </h1>
+          <div class="classificacao-da-noticia">
+            <span class="categoria-da-noticia">Transporte</span>
+            <span class="data-da-noticia">12/03/2026</span>
+          </div>
+          <div class="descricao-da-noticia">
+            O transporte público em Belo Horizonte é focado em uma vasta rede
+            de ônibus.
+          </div>
+          <div class="autoria-da-noticia">Ana Maria Silva</div>
+        </section>
+        <a href="#" class="botao-do-cartao">Ler mais</a>
       </div>
-      
-    </header>
-    <section>
-      <nav>Menu Lateral</nav>
-      <main>
 
-        <div class="cartao">
-          <img
-            src="./assets/img/transportepublico.jpg"
-            alt=""
-            class="imagem-do-cartao"
-          />
-          <section class="corpo-do-cartao">
-            <h1 class="titulo-da-noticia">
-              Tranporte Público em Belo Horizonte
-            </h1>
-            <div class="classificacao-da-noticia">
-              <span class="categoria-da-noticia">Transporte</span>
-              <span class="data-da-noticia">12/03/2026</span>
-            </div>
-            <div class="descricao-da-noticia">
-              O transporte público em Belo Horizonte é focado em uma vasta rede
-              de ônibus.
-            </div>
-            <div class="autoria-da-noticia">Ana Maria Silva</div>
-          </section>
-          <a href="#" class="botao-do-cartao">Ler mais</a>
-        </div>
+    </main>
+  </section>
+  <footer>&copy; Meu Site de Notícias, ❤️</footer>
+</body>
 
-      </main>
-    </section>
-    <footer>&copy; Meu Site de Notícias, ❤️</footer>
-  </body>
 </html>
