@@ -43,3 +43,15 @@ li{
     width: 1.5rem;
 }
 
+.rotulo {
+/*border: .1rem solid #0400ff;*/
+    flex:1;
+}
+
+.icone-final {
+    /*border: .1rem solid #d000ff;*/
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
