@@ -1,13 +1,14 @@
 header {
     /* border: 0.1rem solid red; */
-    height: 2rem;
+    height: 4rem;
     background-color: #252523;
     color: #eee;
     display: flex;
     /* justify-content: center; */
     align-content: center;
     align-items: center;
-    padding: .5rem;
+    padding: 0.5rem;
+
 }
 
 .logo{
@@ -18,12 +19,12 @@ header {
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: .7rem;
+    padding: 0.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-right: .7rem;
+    margin-right: 0.7rem;
 }
 
 .titulo {
