@@ -1,0 +1,15 @@
+@media (max-width: 576px){
+    .titulo{
+        opacity: 0;
+    }
+
+    nav{
+        display: none;
+    }
+
+    main{
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+}
