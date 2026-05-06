@@ -1,0 +1,11 @@
+@import url("cabecalho.css");
+@import url("corpo.css");
+@import url("painel.css");
+
+*{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}

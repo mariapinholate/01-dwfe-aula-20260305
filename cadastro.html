@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site de Notícias</title>
-    <link rel="stylesheet" href="./assets/css/login/estilo.css">
-    <script src="./assets/js/login.js"></script>
+    <link rel="stylesheet" href="./assets/css/cadastro/estilo.css">
     <script src="https://kit.fontawesome.com/f7dc6d9018.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,8 +17,12 @@
     </header>
 
     <div class="container">
-        <h1>Login</h1>
+        <h1>Cadastro</h1>
         <form>
+            <div class="input-grupo">
+                <i class="fa-solid fa-user"></i>
+                <input id="nome" type="text" placeholder="Informe seu nome">
+            </div>
             <div class="input-grupo">
                 <i class="fas fa-envelope"></i>
                 <input id="email" type="email" placeholder="Informe seu e-mail">
@@ -28,14 +31,12 @@
                 <i class="fa-solid fa-lock"></i>
                 <input id="senha" type="password" placeholder="Informe sua senha">
             </div>
-            <button onclick="verificarCredenciais();return false;">
-                <i class="fas fa-sign-in-alt"></i> Entrar
-            </button>
+            <button><i class="fas fa-sign-in-alt"></i>Entrar!</button>
         </form>
         <div class="links-auxiliares">
-            <a href="index.html">Esqueceu a senha?</a>
+            <a href="index.html">Já tem uma conta?</a>
             <span>-</span> <!-- o span é um elemento que não quebra a linha -->
-            <a href="cadastro.html">Registre-se!</a>
+            <a href="index.html">Entrar!</a>
         </div>
     </div>
 </body>

@@ -1,0 +1,8 @@
+body{
+    /* border: .1rem blue solid; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    color: #5e5e5e;
+}
