@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Site de Notícias</title>
     <link rel="stylesheet" href="./assets/css/login/estilo.css">
-    <script src="./assets/js/login.js"></script>
+    <script src="./assets/js/login.js" type="module"></script> 
     <script src="https://kit.fontawesome.com/f7dc6d9018.js" crossorigin="anonymous"></script>
 </head>
 
@@ -28,13 +28,11 @@
                 <i class="fa-solid fa-lock"></i>
                 <input id="senha" type="password" placeholder="Informe sua senha">
             </div>
-            <button onclick="verificarCredenciais();return false;">
-                <i class="fas fa-sign-in-alt"></i> Entrar
-            </button>
+            <button>Entrar</button>
         </form>
         <div class="links-auxiliares">
             <a href="index.html">Esqueceu a senha?</a>
-            <span>-</span> <!-- o span é um elemento que não quebra a linha -->
+            <span>-</span> 
             <a href="cadastro.html">Registre-se!</a>
         </div>
     </div>
