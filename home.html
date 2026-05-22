@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Meu Site de Notícias</title>
   <link rel="stylesheet" href="./assets/css/home/estilo.css" />
+  <script src="./assets/js/menu-hamburguer.js" type="module" > </script>
   <script src="https://kit.fontawesome.com/01aa825c71.js" crossorigin="anonymous"></script>
+  <script src="./assets/js/home.js" type="module" > </script>
 </head>
 
 <body>
@@ -21,7 +23,7 @@
   <section>
     <nav>
       <ul class="menu-lateral">
-        <li>
+        <li id="opcao-noticia">
           <a href="#">
             <div class="opcao">
               <div class="icone-inicial">
@@ -75,65 +77,7 @@
         </li>
       </ul>
     </nav>
-    <main id="noticias" class="container">
-
-      <div class="cartao">
-        <img src="./assets/img/transportepublico.jpg" alt="" class="imagem-do-cartao" />
-        <section class="corpo-do-cartao">
-          <h1 class="titulo-da-noticia">
-            Tranporte Público em Belo Horizonte
-          </h1>
-          <div class="classificacao-da-noticia">
-            <span class="categoria-da-noticia">Transporte</span>
-            <span class="data-da-noticia">12/03/2026</span>
-          </div>
-          <div class="descricao-da-noticia">
-            O transporte público em Belo Horizonte é focado em uma vasta rede
-            de ônibus.
-          </div>
-          <div class="autoria-da-noticia">Ana Maria Silva</div>
-        </section>
-        <a href="#" class="botao-do-cartao">Ler mais</a>
-      </div>
-      <div class="cartao">
-        <img src="./assets/img/transportepublico.jpg" alt="" class="imagem-do-cartao" />
-        <section class="corpo-do-cartao">
-          <h1 class="titulo-da-noticia">
-            Tranporte Público em Belo Horizonte
-          </h1>
-          <div class="classificacao-da-noticia">
-            <span class="categoria-da-noticia">Transporte</span>
-            <span class="data-da-noticia">12/03/2026</span>
-          </div>
-          <div class="descricao-da-noticia">
-            O transporte público em Belo Horizonte é focado em uma vasta rede
-            de ônibus.
-          </div>
-          <div class="autoria-da-noticia">Ana Maria Silva</div>
-        </section>
-        <a href="#" class="botao-do-cartao">Ler mais</a>
-      </div>
-
-      <div class="cartao">
-        <img src="./assets/img/transportepublico.jpg" alt="" class="imagem-do-cartao" />
-        <section class="corpo-do-cartao">
-          <h1 class="titulo-da-noticia">
-            Tranporte Público em Belo Horizonte
-          </h1>
-          <div class="classificacao-da-noticia">
-            <span class="categoria-da-noticia">Transporte</span>
-            <span class="data-da-noticia">12/03/2026</span>
-          </div>
-          <div class="descricao-da-noticia">
-            O transporte público em Belo Horizonte é focado em uma vasta rede
-            de ônibus.
-          </div>
-          <div class="autoria-da-noticia">Ana Maria Silva</div>
-        </section>
-        <a href="#" class="botao-do-cartao">Ler mais</a>
-      </div>
-
-    </main>
+    <main id="noticias" class="container"></main>
   </section>
   <footer>&copy; Meu Site de Notícias, ❤️</footer>
 </body>
