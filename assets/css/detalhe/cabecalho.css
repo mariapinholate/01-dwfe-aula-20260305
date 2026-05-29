@@ -1,0 +1,33 @@
+header {
+    /* border: 0.1rem solid red; */
+    height: 4rem;
+    background-color: #252523;
+    color: #eee;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: 0.5rem;
+
+}
+
+.logo{
+    border: .1rem blue solid;
+    background-color: blue;
+    color: #eeee;
+    font-weight: bold;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 0.7rem;
+}
+
+.titulo {
+    /* border: 1rem solid white; */
+    flex: 1;
+}
